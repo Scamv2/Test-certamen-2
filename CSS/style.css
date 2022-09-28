@@ -1,0 +1,13 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#primertitulo{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+}
