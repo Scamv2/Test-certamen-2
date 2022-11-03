@@ -25,6 +25,27 @@ body{
 .d-block w-100{
     margin: 0 auto;
 }
+#barra{
+    text-align: center;
+}
+.form-signin{
+    width: 40%;
+    
+    margin: 0 auto;
+    
+
+}
+.text-center{
+    padding: 150px;
+    
+}
+#formulario{
+    
+        margin-bottom: 4rem;
+        width: 40%;
+        margin: 0 auto;
+}
+
 #menu{
     border: 1px solid black;
     border-radius: 5px;
@@ -34,6 +55,10 @@ body{
     background-color: bisque;
     text-align: center;
     padding: 20px;
+}
+.form-control{
+    
+    text-align: center;
 }
 a{
     text-decoration: none;
