@@ -4,48 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/style.css">
     <meta name="description" content="certamen">
-    <meta name="author" content="Diego Parra, Mario Vallejo, Juan Montanares">
+    <meta name="author" content="Diego Parra">
     <title>certamen</title>
 </head>
 <body>
-    <header id="primertitulo">
-        <H1>Info certamen</H1>
-    </header>
-    <nav>
-        <ul id="menu">
-            <li class="menu"><a href="#">Quienes somos</a></li>
-            <li class="menu"><a href="#">Contacto</a></li>
-            <li class="menu"><a href="#">Información</a></li>
-            <li class="menu"><a href="#">Noticias</a></li>
-            <li class="menu"><a href="https://www.google.com.mx/?hl=es-419">Google</a></li>
-        </ul>
-    </nav>
-    <section id="contenido">
-        <article>
-            <header><h2>Información</h2></header>
-            <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nobis porro assumenda enim dolorem vitae totam animi distinctio tempora unde blanditiis, sequi eius molestias nihil saepe! Enim ut in dolore!</p>
-                <div id="Imagenes">
-                    <img src="/Imagenes/1.jpg" alt="" width="200px">
-                    
-                    <img src="/Imagenes/2.jpg" alt="" width="200px">
-                            
-                    <img src="/Imagenes/harold.jpg" alt="" width="200px">
-                    <br>
-                    <p class="parrafo">Lorem ipsumr ue iusto tempore,ncliquam sequi exercitationem in quasi vero magnam.</p>
-                    <p class="parrafo">Lorem ipsumr ue iusto tempore,ncliquam sequi exercitationem in quasi vero magnam.</p>
-                    <p class="parrafo">Lorem ipsumr ue iusto tempore,ncliquam sequi exercitationem in quasi vero magnam.</p>
-                   
+    <div class="container">
+        <h1>Album de fotos</h1>
+        <p class="lead text-muted">Album de fotos de nuestros elementos disponibles en la tienda</p>
+        <p>
+          <a href="https://www.google.com/search?q=tienda+de+pc+los+angeles+chile&sxsrf=ALiCzsaXlLAsn8FK0bc7yY1Kc9JK1h7-eg%3A1667463454195&ei=HnljY8y-C8z31sQPhamw6Ao&ved=0ahUKEwjMxfO2yZH7AhXMu5UCHYUUDK0Q4dUDCA8&uact=5&oq=tienda+de+pc+los+angeles+chile&gs_lp=ugYGCAEQARgJugYGCAIQARgIEgxnd3Mtd2l6LXNlcnC4AQP4AQEyCBAhGBYYHhgdwgIKEAAYRxjWBBiwA8ICBxAAGLADGEPCAg4QABjkAhjWBBiwA9gBAcICFhAuGMcBGNEDGNQCGMgDGLADGEPYAQLCAgQQABhDwgIFEAAYgATCAgUQIRigAcICChAhGBYYHhgPGB3CAgQQIRgVwgIGEAAYFhgekAYRSNIeUPUBWMMccAF4AcgBAJABAJgBX6ABxgmqAQIxOOIDBCBNGAHiAwQgQRgA4gMEIEYYAYgGAQ&sclient=gws-wiz-serp" class="btn btn-primary my-2" Target="_blank" >Google</a>
+          <a href="https://www.google.com/search?q=tienda%20de%20pc%20los%20angeles%20chile&sxsrf=ALiCzsbGhqABp1XSoQXut2VrTO942s7imw:1667463461459&ei=HnljY8y-C8z31sQPhamw6Ao&ved=2ahUKEwiM-K66yZH7AhUcupUCHbRmB0YQvS56BAgOEAE&uact=5&oq=tienda+de+pc+los+angeles+chile&gs_lp=ugYGCAEQARgJugYGCAIQARgIEgxnd3Mtd2l6LXNlcnC4AQP4AQEyCBAhGBYYHhgdwgIKEAAYRxjWBBiwA8ICBxAAGLADGEPCAg4QABjkAhjWBBiwA9gBAcICFhAuGMcBGNEDGNQCGMgDGLADGEPYAQLCAgQQABhDwgIFEAAYgATCAgUQIRigAcICChAhGBYYHhgPGB3CAgQQIRgVwgIGEAAYFhgekAYRSNIeUPUBWMMccAF4AcgBAJABAJgBX6ABxgmqAQIxOOIDBCBNGAHiAwQgQRgA4gMEIEYYAYgGAQ&sclient=gws-wiz-serp&tbs=lf:1,lf_ui:10&tbm=lcl&rflfq=1&num=10&rldimm=4650463205863521790&lqi=Ch50aWVuZGEgZGUgcGMgbG9zIGFuZ2VsZXMgY2hpbGVaICIedGllbmRhIGRlIHBjIGxvcyBhbmdlbGVzIGNoaWxlkgEOY29tcHV0ZXJfc3RvcmWqARQQASoQIgx0aWVuZGEgZGUgcGMoDg&phdesc=En0z87bQOcU&sa=X&rlst=f#rlfi=hd:;si:4650463205863521790,l,Ch50aWVuZGEgZGUgcGMgbG9zIGFuZ2VsZXMgY2hpbGVaICIedGllbmRhIGRlIHBjIGxvcyBhbmdlbGVzIGNoaWxlkgEOY29tcHV0ZXJfc3RvcmWqARQQASoQIgx0aWVuZGEgZGUgcGMoDg,y,En0z87bQOcU;mv:[[-37.4585168,-72.33866379999999],[-37.4764057,-72.3742852]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10" class="btn btn-secondary my-2" Target="_blank" >ubicacion</a>
+        </p>
+      </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" Target="_blank">Formulario <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" Target="_blank">Google</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"Target="_blank">Quienes somos</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+        
+            <div class="container">
+      <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/Imagenes/900 x 400 1.jpg" data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true" style="width: 900px; height: 400px;">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/Imagenes/900 x 400 2.jpg" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" style="width: 900px; height: 400px;">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselFadeExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
 
-                </div>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Precios</h1>
+        <p class="lead">Precios competitivos, aquí no pagas de más, pagas por más.</p>
+      </div>
+
+      <div class="container">
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Plan kit basico</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">35.000 CLP <small class="text-muted">/ anual</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Formateo</li>
+                <li>Instalación de office</li>
+                <li>Antivirus</li>
+                <li>Licencia windows 10 gratis</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Ver más sobre el plan</button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Plan tarreo</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$52.990 CLP <small class="text-muted">/ anual</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Incluye plan kit basico/li>
+                <li>Limpieza de componentes</li>
+                <li>Un formateo extra al año</li>
+                <li>Soporte vía remoto para instalacion de programas</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">Ver más sobre el plan</button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Plan Gamer</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">79.990 CLP <small class="text-muted">/ Anual</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Incluye plan tarreo</li>
+                <li>Incluye 2 formateos extras al año</li>
+                <li>Instalación sin costo de piezas compradas en la tienda</li>
+                <li>Instalacion de software optimizador</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">Compralo!</button>
+            </div>
+          </div>
+        </div>
+      
+        
+          
+    
+       
             </section>
         </article>
     </section>
-    <footer>
-        <h6>Todos los derechos reservados</h6>
+    <footer class="blockquote-footer">Todos los derechos
+        <cite title="Source Title">Reservados</cite>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
